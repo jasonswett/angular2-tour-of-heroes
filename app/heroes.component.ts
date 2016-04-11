@@ -2,6 +2,7 @@ import {Component} from 'angular2/core';
 import {Hero} from './hero';
 import {HeroDetailComponent} from './hero-detail.component';
 import {OnInit} from 'angular2/core';
+import { HeroService } from './hero.service';
 
 @Component({
   selector: 'my-heroes',
