@@ -1,7 +1,6 @@
 import {Component} from 'angular2/core';
 import {Hero} from './hero';
 import {HeroDetailComponent} from './hero-detail.component';
-import {HeroService} from './hero.service';
 import {OnInit} from 'angular2/core';
 
 @Component({
@@ -69,8 +68,7 @@ import {OnInit} from 'angular2/core';
       border-radius: 4px 0 0 4px;
     }
   `],
-  directives: [HeroDetailComponent],
-  providers: [HeroService]
+  directives: [HeroDetailComponent]
 })
 
 export class HeroesComponent implements OnInit {
