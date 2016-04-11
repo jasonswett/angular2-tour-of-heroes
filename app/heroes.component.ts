@@ -5,7 +5,7 @@ import {HeroService} from './hero.service';
 import {OnInit} from 'angular2/core';
 
 @Component({
-  selector: 'my-app',
+  selector: 'my-heroes',
   template: `
     <h1>{{title}}</h1>
 
@@ -73,7 +73,7 @@ import {OnInit} from 'angular2/core';
   providers: [HeroService]
 })
 
-export class AppComponent implements OnInit {
+export class HeroesComponent implements OnInit {
   title = 'Tour of Heroes';
   selectedHero: Hero;
   onSelect(hero: Hero) { this.selectedHero = hero; }
