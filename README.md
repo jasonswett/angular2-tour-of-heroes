@@ -1,3 +1,5 @@
+This repo exists for the purpose of supporting my tutorial [Putting the Angular 2 “Tour of Heroes” Tutorial on a Rails 5 Backend](https://www.angularonrails.com/angular-2-tour-heroes-tutorial-rails-backend/).
+
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
